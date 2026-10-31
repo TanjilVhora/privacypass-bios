@@ -4,9 +4,9 @@ export type ProofMode = 'bbs' | 'sdjwt';
 
 // Placeholder, filled in properly at Step 9
 export interface SdJwtCredential {
-  payload: string;
-  signature: string;
-  disclosures: string[];
+  payload: string;      // base64url JSON: { iss, digests: string[] }
+  signature: string;    // ECDSA over the payload string, base64url
+  disclosures: string[]; // one base64url [salt, name, value] per claim
 }
 
 export interface Credential {
