@@ -1,0 +1,17 @@
+{
+  "v": 1,
+  "type": "pp-response",
+  "mode": "bbs",
+  "nonce": "fixture-nonce-123",
+  "issuerId": "demo-university",
+  "schemaVersion": "student-v1",
+  "revealed": {
+    "student_status": "enrolled",
+    "valid_until": "2030-12-31"
+  },
+  "disclosedIndexes": [
+    3,
+    6
+  ],
+  "proof": "mNDCCim7FisGsOOyqS74hv4VKjxl4IIsMIuzS88_Z8lQh5RnXGD3GDOq3K3wd2yOk2V54E45XfQBj-zgFyYnolVCCoXoZM0vJqxK4QQJcpEfaXSwQf2jNU9OdBPdUIynsG8TUvFVuihrAduM4MJo45tRa2VLjyphfuj1J-NMIgCZmBjfPy-wQntpAN0t7-a_ZFc5NnwcLERAyc7dq3FXNjJgtmxEwed-A1YkOZENwkkRifN0PLcBsskJjM3pxkM7KQc0AtR7cFAMmjNZXDjMwS6IETG7hVJtLMzhew3RmaN0g4g21KKhyXFMlXa-j_6EP0wuFv6JmPNHQ2COtmfyjWZ5M5z-AXvS_v63AfqeXGcr8Ca-RFc7PFXxao6fDCdEti3SLbxjcwnt82b5i584BFVmJvkWTTvJRQ2mLSO7Osj9IUMZAdy5Lve4HQwnI4_nN7z7o2eF9QRaFKMeRsBqObvIFJ8oy8VJXwtks212qNYcrJjMRVrcdEFf1MKg-nBDP28qGZTR6fTc_RaeK0SbXVK5szwNiQIneZYTIEN1i8uIkPDrfRY8Is_9CtbHmNok"
+}
