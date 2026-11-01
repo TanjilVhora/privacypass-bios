@@ -48,3 +48,9 @@ export function isRevokedIndex(state: StatusListState, index: number): boolean {
   if (byte === undefined) throw new RangeError(`status index ${index} out of range`);
   return ((byte >> (index % 8)) & 1) === 1;
 }
+export function setRevokedBit(bitsB64: string, index: number): string {
+  const bytes = b64urlDecode(bitsB64).slice();
+  if (index < 0 || index >= bytes.length * 8) throw new RangeError(`status index ${index} out of range`);
+  bytes[Math.floor(index / 8)] |= 1 << (index % 8);
+  return b64urlEncode(bytes);
+}

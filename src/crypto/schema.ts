@@ -7,3 +7,4 @@ export const CLAIM_INDEX: Record<ClaimName, number> = {
   name: 0, dob: 1, student_id: 2, student_status: 3,
   age_over_18: 4, address: 5, valid_until: 6,
 };
+export const listIdFor = (issuerId: string) => `${issuerId}-status-v1`;

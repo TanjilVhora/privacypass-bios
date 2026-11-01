@@ -81,3 +81,4 @@ export async function verifyBbsProof(
     return false;
   }
 }
+export const generateBbsKeyPair = generateIssuerKeys;
